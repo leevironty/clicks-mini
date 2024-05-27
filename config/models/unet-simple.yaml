@@ -1,0 +1,21 @@
+class_path: mini.model_wrapper.UNet
+init_args:
+  dim: 1
+  in_channels: 1
+  channels: [16, 32, 32]
+  factors: [2, 4, 4]
+  items: [2, 2, 2]
+  attentions: [0, 0, 1]
+  cross_attentions: null
+  context_channels: null
+  attention_features: 64
+  attention_heads: 4
+  embedding_features: null
+  resnet_groups: 8
+  use_modulation: true
+  modulation_features: 32
+  embedding_max_length: null
+  use_time_conditioning: true
+  use_embedding_cfg: false
+  use_text_conditioning: false
+  out_channels: null

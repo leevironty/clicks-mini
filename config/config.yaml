@@ -1,0 +1,10 @@
+
+model:
+  net: models/unet-simple.yaml
+
+data:
+  dataset: datasets/musqhd.yaml
+  batch_size: 4
+
+trainer:
+  strategy: 

@@ -1,0 +1,11 @@
+class_path: mini.dataset.TracksDataset
+init_args:
+  root: ~/datasets/musqdb-hq
+  samples: 16384
+  activity_detector:
+    min_power: 0.01
+    min_samples_activity: 16384
+    min_samples_silence: 8192
+  use_cached: true
+  write_cache: false
+  include: null
